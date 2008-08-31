@@ -1,0 +1,373 @@
+/* estilos blog jacob berger */
+
+
+
+
+/*estilos generales*/
+	body{
+		background: #3d3a38 url(../images/dirt.png) no-repeat center 0;
+		margin:22px 0;
+		color:#241414;
+}
+/* termina estilos generales */
+
+.clear{clear:both;}
+
+
+
+/*cajas principales*/
+	#head{
+		margin:10px auto 18px;
+		width:980px;
+		height:87px;
+		background: url(../images/head-background.png) no-repeat 1px 3px;
+		position:relative;
+		background-color: #FAF9F5;
+	}
+
+	#content{
+		clear:both;
+		margin:10px auto 10px;
+		width:980px;
+	}
+
+
+	#foot{
+		clear:both;
+		margin:0 auto;
+		width:980px;
+		background-color: #FAF9F5;
+	}
+
+	#head, #content, #foot{
+		padding:0;
+	}
+
+
+
+/*termina cajas principales*/
+
+
+
+/*menu principal y contenido encabezado*/
+#mainMenu {
+	float:right;
+	width:544px;
+	height:27px;
+	padding:0;
+	margin:0 10px 0 0;
+	background:url(../images/main-menu-sprite.png);
+	position:relative;
+}
+
+#mainMenu ul{
+
+}
+
+
+#mainMenu li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+
+#mainMenu li, #mainMenu a {
+    height: 16px;
+	display: block;
+	text-indent:-5000px;
+}
+
+#memuHome{
+	left: 0;
+	width: 44px;
+}
+
+#menuCommercials {
+	left: 44px;
+	width: 123px;
+	}
+
+#menuFilms{
+	left: 167px;
+	width: 73px;
+}
+
+#menuBonus{
+	left: 240px;
+	width: 60px;
+	}
+
+#menuBio{
+	left: 300px;
+	width: 60px;
+	}
+
+#menuBlogs{
+	left: 360px;
+	width: 107px;
+	}
+
+#menuContact{
+	left: 467px;
+	width: 77px;
+	}
+
+
+#menuBlogs a.menuOn{
+	background: transparent url(../images/main-menu-sprite.png) -360px -28px no-repeat;
+}
+
+
+#memuHome a:hover{
+	background: transparent url(../images/main-menu-sprite.png) 0 -28px no-repeat;
+	}
+
+#menuCommercials a:hover {
+	background: transparent url(../images/main-menu-sprite.png) -44px -28px no-repeat;
+	}
+
+#menuFilms a:hover {
+	background: transparent url(../images/main-menu-sprite.png) -167px -28px no-repeat;
+	}
+
+#menuBonus a:hover{
+	background: transparent url(../images/main-menu-sprite.png) -240px -28px no-repeat;
+	}
+
+#menuBio a:hover {
+	background: transparent url(../images/main-menu-sprite.png) -300px -28px no-repeat;
+	}
+
+#menuBlogs a:hover{
+	background: transparent url(../images/main-menu-sprite.png) -360px -28px no-repeat;
+	}
+
+#menuContact a:hover{
+	background: transparent url(../images/main-menu-sprite.png) -467px -28px no-repeat;
+	}
+
+#head h1{
+	font-size: 42px;
+	text-indent: -1000em;
+	background: url(../images/jacobberger-h1.png) no-repeat 10px 10px;
+	height: 57px;
+	width:317px;
+	display:block;
+	margin:0 0 5px 0;
+}
+
+#head h2{
+	text-indent: -1000em;
+	overflow: hidden;
+	background: url(../images/tagline.png) no-repeat 10px 0;
+	height: 21px;
+	width:405px;
+	display:block;
+	margin:0;
+
+}
+/*termina menu principal y contenido encabezado*/
+
+
+
+
+
+/*columnas izquierda y derecha*/
+#leftCol{
+	float:left;
+	width:770px;
+	padding:0;
+	margin-bottom: 22px;
+	background-color: #FAF9F5;
+
+}
+
+#rightCol{
+	float: left;
+	width:184px;
+	margin:0 0 0 25px;
+	padding:0;
+	background-color: #FAF9F5;
+}
+/*termina columnas izquierda y derecha*/
+
+
+
+
+/*contenido columna izquierda*/
+
+
+#leftCol a:link, #leftCol a:visited{
+	text-decoration: none;
+	color:#cc0000;
+}
+
+#leftCol a:hover{
+	text-decoration: underline;
+}
+
+#leftCol h2 a:link, #leftCol h2 a:visited{
+	text-decoration: none;
+	color:#241414;
+}
+
+#leftCol h2 a:hover{
+	text-decoration: none;
+	color:#cc0000;
+}
+
+#navTime .olderPost a:link,  #navTime .olderPost a:visited, #navTime .newerPost a:link,  #navTime .newerPost a:visited{
+	text-decoration: none;
+	color:#241414;
+}
+
+#navTime .olderPost a:hover, #navTime .newerPost a:hover{
+	text-decoration: none;
+	color:#cc0000;
+}
+
+#leftCol .post{
+	margin:16px 0 22px 16px;
+}
+
+#leftCol h2{
+	margin:0;
+
+}
+
+p.date{
+	margin:-5px 0 10px 0px ;
+}
+
+p.postLead{
+	margin:0 100px 10px 0;
+	
+}
+
+.postCategories{
+	margin:0 120px 0 0;
+	float:left;
+}
+
+.numberOfComments{
+	float:left;
+}
+
+
+.postCatergoriesTitle{
+	margin:0;
+}
+
+.howManyComments{
+	margin:0;
+}
+
+#leftCol hr{
+	margin:0 20px 3px 0;
+}
+
+
+#navTime{
+	margin:0 0 0 16px;
+	padding-bottom:20px;
+}
+
+p.olderPost{
+	font-size:14px;
+	float:left;
+	margin:0 608px 0 0;
+	padding-left: 15px;
+	background:url(../images/arrows-left.png) no-repeat 0 5px;
+}
+
+p.newerPost{
+	font-size:14px;
+	float:left;
+	margin:0;
+	padding-right: 15px;
+	background:url(../images/arrows-right.png) no-repeat right 4px;
+}
+
+/*termina contenido columna izquierda*/
+
+
+
+
+/*contenido columna derecha*/
+#rightCol .rightContainer{
+	width:162px;
+	background:url(../images/head-rightcol.png) no-repeat 10px top;
+	margin:18px 0 0 0;
+	padding:14px 0 5px 12px;
+}
+
+#rightCol .rightContainer a:link, #rightCol .rightContainer a:visited{
+	text-decoration:none;
+	color:#241414;
+} 
+
+#rightCol .rightContainer a:hover{
+	color:#cc0000;
+	
+}
+
+
+#rightCol .rightContainer h4{
+	font-size:14px;
+	margin:0;
+}
+
+#rightCol .rightContainer p, #rightCol .rightContainer ul{
+	margin:0;
+}
+
+#rightCol .rightContainer li{
+	list-style: none;
+	margin:0;
+}
+
+#rightCol .pushDown.rightContainer{
+	margin-bottom:30px;
+}
+
+/*termina contenido columna derecha*/
+
+
+
+/*contenido footer*/
+#foot a:link, #foot a:visited {
+	color:#241414;
+	text-decoration: none;
+}
+
+#foot li a:link, #foot li a:visited {
+	color:#cc0000;
+	text-decoration: none;
+}
+
+#foot h4{
+	font-size: 14px;
+	font-weight: bold;
+	margin:0 0 0 16px;
+	padding-top: 5px;
+}
+
+#foot h6{
+	font-size: 10px;
+	font-weight: bold;
+	margin:0 0 0 16px;
+	padding-bottom: 5px;
+}
+
+#foot ul{
+	margin: 0 0 5px 0;
+}
+
+#foot li{
+	display:inline;
+	margin:0 0 0 16px;
+}
+/*termina contenido footer*/
