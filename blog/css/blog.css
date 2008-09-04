@@ -229,7 +229,7 @@
 	color:#cc0000;
 }
 
-#leftCol .post{
+#leftCol .post, #leftCol .aPost, #commentsOnPost, #commentForm {
 	margin:16px 0 22px 16px;
 }
 
@@ -295,6 +295,57 @@ p.newerPost{
 
 
 
+/*comentarios a un post*/
+
+#commentsOnPost li{
+	margin:0;
+	list-style: none;
+}
+
+
+#commentsOnPost p.comment{
+	margin:0 40px 8px 0;
+}
+
+#commentsOnPost .commentNumber{
+	float:left;
+	padding:0 10px 0 0;
+	font-weight: bold;
+}
+
+#commentsOnPost .commentBy{
+	font-size:11px;
+}
+
+/*termina comentarios a un post*/
+
+
+
+/*formulario de comentario a un post*/
+#commentForm br{
+	margin:0 0 14px 0;
+}
+
+#commentForm label{
+	float:left;
+	display:block;
+	width:80px;
+}
+
+#commentForm .sendMe{
+	float: left;
+	display: block;
+	margin: 0 14px 0 11% ;
+}
+
+#commentForm legend{
+	font-size:16px;
+	font-weight:bold;
+	margin:0 0 10px 0;
+}
+
+
+/*termina formulario de comentario a un post*/
 
 /*contenido columna derecha*/
 #rightCol .rightContainer{
